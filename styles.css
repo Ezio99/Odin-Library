@@ -1,0 +1,61 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+body{
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    gap:8px
+}
+
+.card{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+button{
+    background-color: white;
+    color: black;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal{
+
+    padding: 40px;
+    margin: 40vh auto 0 auto;
+
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.inp-element{
+    display: flex;
+    gap: 10px;
+}
+
+::backdrop{
+    background-image: linear-gradient(gray,lightgray);
+}
